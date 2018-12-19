@@ -108,7 +108,6 @@ view {
     right: 20px;
 }
 
-
 .docs {}
 
     .docs::after {
@@ -116,6 +115,21 @@ view {
         width: 350px;
         height: 200px;
         background-image: url('assets/port_docs.png');
+        /*opacity: 0.5;*/
+        position: absolute;
+        margin: -136px 0 0 0;
+        z-index: -1;
+        display: inline-block;
+    }
+
+
+.codelabo {}
+
+    .codelabo::after {
+        content: "";
+        width: 350px;
+        height: 200px;
+        background-image: url('assets/port_code.png');
         /*opacity: 0.5;*/
         position: absolute;
         margin: -136px 0 0 0;
